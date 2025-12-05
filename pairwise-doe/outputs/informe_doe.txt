@@ -3,7 +3,7 @@ INFORME DE DISEÑO DE EXPERIMENTOS (DOE)
 Técnica: Pairwise Testing (Combinación por Pares)
 =================================================
 
-FECHA DE GENERACIÓN: 2025-12-05 02:14:11
+FECHA DE GENERACIÓN: 2025-12-05 02:19:31
 
 1. RESUMEN DE FACTORES
 -------------------------------------------------
@@ -35,63 +35,63 @@ Total de pares posibles: 451
 Total de pares cubiertos: 451
 Cobertura de pares: 100.00%
 
-Casos de prueba generados: 45
-Reducción de casos: 99.82%
+Casos de prueba generados: 48
+Reducción de casos: 99.81%
 
 
 3. ESTADÍSTICAS POR FACTOR
 -------------------------------------------------
 
 TipoPago:
-  - TarjetaCredito: 10 veces (22.2%)
-  - TarjetaDebito: 8 veces (17.8%)
-  - PayPal: 9 veces (20.0%)
-  - TransferenciaBancaria: 7 veces (15.6%)
-  - Criptomoneda: 11 veces (24.4%)
+  - TarjetaCredito: 14 veces (29.2%)
+  - TarjetaDebito: 8 veces (16.7%)
+  - PayPal: 10 veces (20.8%)
+  - TransferenciaBancaria: 8 veces (16.7%)
+  - Criptomoneda: 8 veces (16.7%)
 
 TipoEnvio:
-  - Express24h: 9 veces (20.0%)
-  - Standard3-5dias: 7 veces (15.6%)
-  - Economico7-10dias: 7 veces (15.6%)
-  - RecogidaTienda: 7 veces (15.6%)
-  - EnvioInternacional: 7 veces (15.6%)
-  - EnvioRefrigerado: 8 veces (17.8%)
+  - Express24h: 7 veces (14.6%)
+  - Standard3-5dias: 8 veces (16.7%)
+  - Economico7-10dias: 7 veces (14.6%)
+  - RecogidaTienda: 8 veces (16.7%)
+  - EnvioInternacional: 8 veces (16.7%)
+  - EnvioRefrigerado: 10 veces (20.8%)
 
 TipoUsuario:
-  - Invitado: 11 veces (24.4%)
-  - Registrado: 9 veces (20.0%)
-  - Premium: 8 veces (17.8%)
-  - Corporativo: 8 veces (17.8%)
-  - Estudiante: 9 veces (20.0%)
+  - Invitado: 14 veces (29.2%)
+  - Registrado: 11 veces (22.9%)
+  - Premium: 7 veces (14.6%)
+  - Corporativo: 8 veces (16.7%)
+  - Estudiante: 8 veces (16.7%)
 
 Plataforma:
-  - WebEscritorio: 6 veces (13.3%)
-  - WebMovil: 6 veces (13.3%)
-  - AppAndroid: 7 veces (15.6%)
-  - AppIOS: 6 veces (13.3%)
-  - AppHuawei: 7 veces (15.6%)
-  - PWA: 6 veces (13.3%)
-  - ApiRest: 7 veces (15.6%)
+  - WebEscritorio: 6 veces (12.5%)
+  - WebMovil: 7 veces (14.6%)
+  - AppAndroid: 8 veces (16.7%)
+  - AppIOS: 6 veces (12.5%)
+  - AppHuawei: 7 veces (14.6%)
+  - PWA: 7 veces (14.6%)
+  - ApiRest: 7 veces (14.6%)
 
 Region:
-  - NorteAmerica: 7 veces (15.6%)
-  - SurAmerica: 7 veces (15.6%)
-  - Europa: 7 veces (15.6%)
-  - Asia: 8 veces (17.8%)
-  - Oceania: 8 veces (17.8%)
-  - Africa: 8 veces (17.8%)
+  - NorteAmerica: 10 veces (20.8%)
+  - SurAmerica: 8 veces (16.7%)
+  - Europa: 7 veces (14.6%)
+  - Asia: 7 veces (14.6%)
+  - Oceania: 8 veces (16.7%)
+  - Africa: 8 veces (16.7%)
 
 CodigoDescuento:
-  - SinDescuento: 19 veces (42.2%)
-  - Descuento10: 8 veces (17.8%)
-  - Descuento25: 8 veces (17.8%)
-  - BlackFriday50: 10 veces (22.2%)
+  - SinDescuento: 24 veces (50.0%)
+  - Descuento10: 8 veces (16.7%)
+  - Descuento25: 8 veces (16.7%)
+  - BlackFriday50: 8 veces (16.7%)
 
 
 4. EFICIENCIA DEL DISEÑO
 -------------------------------------------------
-Eficiencia: 0.1786% (usando solo 45 de 25200 casos posibles)
-Promedio de pares únicos por caso: 10.02
+Eficiencia: 0.1905% (usando solo 48 de 25200 casos posibles)
+Promedio de pares únicos por caso: 9.40
 
 
 5. VENTAJAS DEL PAIRWISE TESTING

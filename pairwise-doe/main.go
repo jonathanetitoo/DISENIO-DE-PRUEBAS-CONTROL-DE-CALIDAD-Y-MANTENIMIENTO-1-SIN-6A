@@ -448,34 +448,34 @@ func main() {
 	fmt.Println("EXPORTANDO RESULTADOS...")
 	fmt.Println("=================================================\n")
 	
-	// Crear directorio de salida
+	// Crear directorio de salida si no existe
 	outputDir := "outputs"
 	if err := os.MkdirAll(outputDir, 0755); err != nil {
-		fmt.Printf("Error creando directorio: %v\n", err)
+		fmt.Printf("Error creando directorio outputs: %v\n", err)
 		return
 	}
 	
-	if err := tester.ExportToCSV("outputs/casos_prueba.csv"); err != nil {
+	if err := tester.ExportToCSV(outputDir + "/casos_prueba.csv"); err != nil {
 		fmt.Printf("Error exportando CSV: %v\n", err)
 	} else {
 		fmt.Println("✓ Casos de prueba exportados a: outputs/casos_prueba.csv")
 	}
 	
-	if err := tester.GenerateReport("outputs/informe_doe.txt"); err != nil {
+	if err := tester.GenerateReport(outputDir + "/informe_doe.txt"); err != nil {
 		fmt.Printf("Error generando informe: %v\n", err)
 	} else {
 		fmt.Println("✓ Informe generado en: outputs/informe_doe.txt")
 	}
 	
 	factorsJSON, _ := json.MarshalIndent(factors, "", "  ")
-	if err := os.WriteFile("outputs/factores.json", factorsJSON, 0644); err != nil {
+	if err := os.WriteFile(outputDir+"/factores.json", factorsJSON, 0644); err != nil {
 		fmt.Printf("Error exportando factores: %v\n", err)
 	} else {
 		fmt.Println("✓ Factores exportados a: outputs/factores.json")
 	}
 	
 	casesJSON, _ := json.MarshalIndent(tester.TestCases, "", "  ")
-	if err := os.WriteFile("outputs/casos_prueba.json", casesJSON, 0644); err != nil {
+	if err := os.WriteFile(outputDir+"/casos_prueba.json", casesJSON, 0644); err != nil {
 		fmt.Printf("Error exportando casos JSON: %v\n", err)
 	} else {
 		fmt.Println("✓ Casos de prueba exportados a: outputs/casos_prueba.json")

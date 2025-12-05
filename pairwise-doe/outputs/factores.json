@@ -1,0 +1,65 @@
+[
+  {
+    "name": "TipoPago",
+    "levels": [
+      "TarjetaCredito",
+      "TarjetaDebito",
+      "PayPal",
+      "TransferenciaBancaria",
+      "Criptomoneda"
+    ]
+  },
+  {
+    "name": "TipoEnvio",
+    "levels": [
+      "Express24h",
+      "Standard3-5dias",
+      "Economico7-10dias",
+      "RecogidaTienda",
+      "EnvioInternacional",
+      "EnvioRefrigerado"
+    ]
+  },
+  {
+    "name": "TipoUsuario",
+    "levels": [
+      "Invitado",
+      "Registrado",
+      "Premium",
+      "Corporativo",
+      "Estudiante"
+    ]
+  },
+  {
+    "name": "Plataforma",
+    "levels": [
+      "WebEscritorio",
+      "WebMovil",
+      "AppAndroid",
+      "AppIOS",
+      "AppHuawei",
+      "PWA",
+      "ApiRest"
+    ]
+  },
+  {
+    "name": "Region",
+    "levels": [
+      "NorteAmerica",
+      "SurAmerica",
+      "Europa",
+      "Asia",
+      "Oceania",
+      "Africa"
+    ]
+  },
+  {
+    "name": "CodigoDescuento",
+    "levels": [
+      "SinDescuento",
+      "Descuento10",
+      "Descuento25",
+      "BlackFriday50"
+    ]
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "CodigoDescuento": "SinDescuento",
+    "Plataforma": "WebEscritorio",
+    "Region": "NorteAmerica",
+    "TipoEnvio": "Express24h",
+    "TipoPago": "TarjetaCredito",
+    "TipoUsuario": "Invitado"
+  },
+  {
+    "CodigoDescuento": "SinDescuento",
+    "Plataforma": "WebMovil",
+    "Region": "SurAmerica",
+    "TipoEnvio": "Standard3-5dias",
+    "TipoPago": "TarjetaDebito",
+    "TipoUsuario": "Registrado"
+  },
+  {
+    "CodigoDescuento": "Descuento10",
+    "Plataforma": "AppAndroid",
+    "Region": "NorteAmerica",
+    "TipoEnvio": "Economico7-10dias",
+    "TipoPago": "TarjetaDebito",
+    "TipoUsuario": "Premium"
+  },
+  {
+    "CodigoDescuento": "SinDescuento",
+    "Plataforma": "AppIOS",
+    "Region": "Europa",
+    "TipoEnvio": "Economico7-10dias",
+    "TipoPago": "PayPal",
+    "TipoUsuario": "Corporativo"
+  },
+  {
+    "CodigoDescuento": "Descuento25",
+    "Plataforma": "AppAndroid",
+    "Region": "Asia",
+    "TipoEnvio": "Standard3-5dias",
+    "TipoPago": "PayPal",
+    "TipoUsuario": "Invitado"
+  },
+  {
+    "CodigoDescuento": "Descuento10",
+    "Plataforma": "AppHuawei",
+    "Region": "Oceania",
+    "TipoEnvio": "Standard3-5dias",
+    "TipoPago": "TarjetaCredito",
+    "TipoUsuario": "Corporativo"
+  },
+  {
+    "CodigoDescuento": "Descuento25",
+    "Plataforma": "PWA",
+    "Region": "Europa",
+    "TipoEnvio": "RecogidaTienda",
+    "TipoPago": "TarjetaCredito",
+    "TipoUsuario": "Registrado"
+  },
+  {
+    "CodigoDescuento": "SinDescuento",
+    "Plataforma": "ApiRest",
+    "Region": "Asia",
+    "TipoEnvio": "RecogidaTienda",
+    "TipoPago": "TransferenciaBancaria",
+    "TipoUsuario": "Premium"
+  },
+  {
+    "CodigoDescuento": "BlackFriday50",
+    "Plataforma": "AppAndroid",
+    "Region": "SurAmerica",
+    "TipoEnvio": "Express24h",
+    "TipoPago": "TransferenciaBancaria",
+    "TipoUsuario": "Estudiante"
+  },
+  {
+    "CodigoDescuento": "Descuento10",
+    "Plataforma": "AppIOS",
+    "Region": "Asia",
+    "TipoEnvio": "EnvioInternacional",
+    "TipoPago": "Criptomoneda",
+    "TipoUsuario": "Registrado"
+  },
+  {
+    "CodigoDescuento": "Descuento25",
+    "Plataforma": "WebEscritorio",
+    "Region": "Africa",
+    "TipoEnvio": "EnvioInternacional",
+    "TipoPago": "TarjetaDebito",
+    "TipoUsuario": "Corporativo"
+  },
+  {
+    "CodigoDescuento": "BlackFriday50",
+    "Plataforma": "WebMovil",
+    "Region": "Oceania",
+    "TipoEnvio": "EnvioInternacional",
+    "TipoPago": "PayPal",
+    "TipoUsuario": "Premium"
+  },
+  {
+    "CodigoDescuento": "SinDescuento",
+    "Plataforma": "AppHuawei",
+    "Region": "Africa",
+    "TipoEnvio": "EnvioRefrigerado",
+    "TipoPago": "Criptomoneda",
+    "TipoUsuario": "Estudiante"
+  },
+  {
+    "CodigoDescuento": "BlackFriday50",
+    "Plataforma": "ApiRest",
+    "Region": "Europa",
+    "TipoEnvio": "EnvioRefrigerado",
+    "TipoPago": "TarjetaDebito",
+    "TipoUsuario": "Invitado"
+  },
+  {
+    "CodigoDescuento": "Descuento10",
+    "Plataforma": "PWA",
+    "Region": "Africa",
+    "TipoEnvio": "Economico7-10dias",
+    "TipoPago": "TransferenciaBancaria",
+    "TipoUsuario": "Invitado"
+  },
+  {
+    "CodigoDescuento": "BlackFriday50",
+    "Plataforma": "WebMovil",
+    "Region": "NorteAmerica",
+    "TipoEnvio": "RecogidaTienda",
+    "TipoPago": "Criptomoneda",
+    "TipoUsuario": "Corporativo"
+  },
+  {
+    "CodigoDescuento": "Descuento10",
+    "Plataforma": "WebEscritorio",
+    "Region": "SurAmerica",
+    "TipoEnvio": "RecogidaTienda",
+    "TipoPago": "PayPal",
+    "TipoUsuario": "Estudiante"
+  },
+  {
+    "CodigoDescuento": "Descuento25",
+    "Plataforma": "AppIOS",
+    "Region": "SurAmerica",
+    "TipoEnvio": "EnvioRefrigerado",
+    "TipoPago": "TarjetaCredito",
+    "TipoUsuario": "Premium"
+  },
+  {
+    "CodigoDescuento": "Descuento25",
+    "Plataforma": "ApiRest",
+    "Region": "Oceania",
+    "TipoEnvio": "Express24h",
+    "TipoPago": "Criptomoneda",
+    "TipoUsuario": "Registrado"
+  },
+  {
+    "CodigoDescuento": "Descuento25",
+    "Plataforma": "WebMovil",
+    "Region": "Asia",
+    "TipoEnvio": "Economico7-10dias",
+    "TipoPago": "TarjetaCredito",
+    "TipoUsuario": "Estudiante"
+  },
+  {
+    "CodigoDescuento": "Descuento25",
+    "Plataforma": "AppIOS",
+    "Region": "NorteAmerica",
+    "TipoEnvio": "Standard3-5dias",
+    "TipoPago": "TransferenciaBancaria",
+    "TipoUsuario": "Estudiante"
+  },
+  {
+    "CodigoDescuento": "BlackFriday50",
+    "Plataforma": "WebEscritorio",
+    "Region": "Europa",
+    "TipoEnvio": "Standard3-5dias",
+    "TipoPago": "Criptomoneda",
+    "TipoUsuario": "Premium"
+  },
+  {
+    "CodigoDescuento": "BlackFriday50",
+    "Plataforma": "PWA",
+    "Region": "Asia",
+    "TipoEnvio": "Express24h",
+    "TipoPago": "TarjetaDebito",
+    "TipoUsuario": "Corporativo"
+  },
+  {
+    "CodigoDescuento": "BlackFriday50",
+    "Plataforma": "AppHuawei",
+    "Region": "Africa",
+    "TipoEnvio": "Express24h",
+    "TipoPago": "PayPal",
+    "TipoUsuario": "Registrado"
+  },
+  {
+    "CodigoDescuento": "SinDescuento",
+    "Plataforma": "WebEscritorio",
+    "Region": "Oceania",
+    "TipoEnvio": "EnvioRefrigerado",
+    "TipoPago": "TransferenciaBancaria",
+    "TipoUsuario": "Registrado"
+  },
+  {
+    "CodigoDescuento": "SinDescuento",
+    "Plataforma": "AppAndroid",
+    "Region": "Europa",
+    "TipoEnvio": "EnvioInternacional",
+    "TipoPago": "TarjetaCredito",
+    "TipoUsuario": "Estudiante"
+  },
+  {
+    "CodigoDescuento": "BlackFriday50",
+    "Plataforma": "AppIOS",
+    "Region": "Oceania",
+    "TipoEnvio": "RecogidaTienda",
+    "TipoPago": "TarjetaDebito",
+    "TipoUsuario": "Invitado"
+  },
+  {
+    "CodigoDescuento": "Descuento25",
+    "Plataforma": "AppHuawei",
+    "Region": "SurAmerica",
+    "TipoEnvio": "Economico7-10dias",
+    "TipoPago": "Criptomoneda",
+    "TipoUsuario": "Invitado"
+  },
+  {
+    "CodigoDescuento": "Descuento10",
+    "Plataforma": "WebMovil",
+    "Region": "Europa",
+    "TipoEnvio": "EnvioRefrigerado",
+    "TipoPago": "TransferenciaBancaria",
+    "TipoUsuario": "Corporativo"
+  },
+  {
+    "CodigoDescuento": "SinDescuento",
+    "Plataforma": "PWA",
+    "Region": "NorteAmerica",
+    "TipoEnvio": "EnvioRefrigerado",
+    "TipoPago": "PayPal",
+    "TipoUsuario": "Registrado"
+  },
+  {
+    "CodigoDescuento": "Descuento10",
+    "Plataforma": "ApiRest",
+    "Region": "Africa",
+    "TipoEnvio": "Standard3-5dias",
+    "TipoPago": "TarjetaCredito",
+    "TipoUsuario": "Premium"
+  },
+  {
+    "CodigoDescuento": "SinDescuento",
+    "Plataforma": "AppHuawei",
+    "Region": "NorteAmerica",
+    "TipoEnvio": "EnvioInternacional",
+    "TipoPago": "TransferenciaBancaria",
+    "TipoUsuario": "Invitado"
+  },
+  {
+    "CodigoDescuento": "BlackFriday50",
+    "Plataforma": "ApiRest",
+    "Region": "Oceania",
+    "TipoEnvio": "Economico7-10dias",
+    "TipoPago": "PayPal",
+    "TipoUsuario": "Estudiante"
+  },
+  {
+    "CodigoDescuento": "Descuento10",
+    "Plataforma": "AppHuawei",
+    "Region": "Europa",
+    "TipoEnvio": "Express24h",
+    "TipoPago": "TarjetaDebito",
+    "TipoUsuario": "Premium"
+  },
+  {
+    "CodigoDescuento": "SinDescuento",
+    "Plataforma": "PWA",
+    "Region": "SurAmerica",
+    "TipoEnvio": "EnvioInternacional",
+    "TipoPago": "Criptomoneda",
+    "TipoUsuario": "Premium"
+  },
+  {
+    "CodigoDescuento": "SinDescuento",
+    "Plataforma": "AppAndroid",
+    "Region": "Africa",
+    "TipoEnvio": "RecogidaTienda",
+    "TipoPago": "Criptomoneda",
+    "TipoUsuario": "Registrado"
+  },
+  {
+    "CodigoDescuento": "BlackFriday50",
+    "Plataforma": "ApiRest",
+    "Region": "SurAmerica",
+    "TipoEnvio": "EnvioInternacional",
+    "TipoPago": "TarjetaCredito",
+    "TipoUsuario": "Corporativo"
+  },
+  {
+    "CodigoDescuento": "SinDescuento",
+    "Plataforma": "PWA",
+    "Region": "Oceania",
+    "TipoEnvio": "Standard3-5dias",
+    "TipoPago": "TarjetaCredito",
+    "TipoUsuario": "Estudiante"
+  },
+  {
+    "CodigoDescuento": "SinDescuento",
+    "Plataforma": "WebMovil",
+    "Region": "Africa",
+    "TipoEnvio": "Express24h",
+    "TipoPago": "Criptomoneda",
+    "TipoUsuario": "Invitado"
+  },
+  {
+    "CodigoDescuento": "SinDescuento",
+    "Plataforma": "AppAndroid",
+    "Region": "Asia",
+    "TipoEnvio": "EnvioRefrigerado",
+    "TipoPago": "TarjetaDebito",
+    "TipoUsuario": "Estudiante"
+  },
+  {
+    "CodigoDescuento": "SinDescuento",
+    "Plataforma": "WebEscritorio",
+    "Region": "Asia",
+    "TipoEnvio": "Economico7-10dias",
+    "TipoPago": "TarjetaCredito",
+    "TipoUsuario": "Registrado"
+  },
+  {
+    "CodigoDescuento": "SinDescuento",
+    "Plataforma": "AppHuawei",
+    "Region": "Asia",
+    "TipoEnvio": "RecogidaTienda",
+    "TipoPago": "PayPal",
+    "TipoUsuario": "Invitado"
+  },
+  {
+    "CodigoDescuento": "SinDescuento",
+    "Plataforma": "AppAndroid",
+    "Region": "Oceania",
+    "TipoEnvio": "EnvioRefrigerado",
+    "TipoPago": "PayPal",
+    "TipoUsuario": "Corporativo"
+  },
+  {
+    "CodigoDescuento": "SinDescuento",
+    "Plataforma": "AppIOS",
+    "Region": "Africa",
+    "TipoEnvio": "Express24h",
+    "TipoPago": "Criptomoneda",
+    "TipoUsuario": "Invitado"
+  },
+  {
+    "CodigoDescuento": "SinDescuento",
+    "Plataforma": "ApiRest",
+    "Region": "NorteAmerica",
+    "TipoEnvio": "Express24h",
+    "TipoPago": "Criptomoneda",
+    "TipoUsuario": "Invitado"
+  }
+]

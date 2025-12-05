@@ -1,0 +1,18 @@
+mode: set
+coveragetool/binarysearch.go:5.46,6.22 1 0
+coveragetool/binarysearch.go:6.22,8.6 1 0
+coveragetool/binarysearch.go:10.5,13.23 3 0
+coveragetool/binarysearch.go:13.23,16.31 2 0
+coveragetool/binarysearch.go:16.31,18.10 1 0
+coveragetool/binarysearch.go:20.9,20.30 1 0
+coveragetool/binarysearch.go:20.30,22.10 1 0
+coveragetool/binarysearch.go:22.15,24.10 1 0
+coveragetool/binarysearch.go:27.5,27.14 1 0
+coveragetool/binarysearch.go:31.55,33.2 1 0
+coveragetool/binarysearch.go:35.65,36.21 1 0
+coveragetool/binarysearch.go:36.21,38.6 1 0
+coveragetool/binarysearch.go:40.5,42.27 2 0
+coveragetool/binarysearch.go:42.27,44.6 1 0
+coveragetool/binarysearch.go:46.5,46.26 1 0
+coveragetool/binarysearch.go:46.26,48.6 1 0
+coveragetool/binarysearch.go:50.5,50.56 1 0

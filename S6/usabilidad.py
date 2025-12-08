@@ -1,3 +1,5 @@
+# Por Brando Matute
+
 import random
 import numpy as np
 

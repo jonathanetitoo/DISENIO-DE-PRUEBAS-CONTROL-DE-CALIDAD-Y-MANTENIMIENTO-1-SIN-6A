@@ -2,9 +2,10 @@ name: CI
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "Evaluacion-en-contacto-con-el-docente"]
   pull_request:
-    branches: ["main"]
+    branches: ["main", "Evaluacion-en-contacto-con-el-docente"]
+
 
 jobs:
   pruebas-jasmine:

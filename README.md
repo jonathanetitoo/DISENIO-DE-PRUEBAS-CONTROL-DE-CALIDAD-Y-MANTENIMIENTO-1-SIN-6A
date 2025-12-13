@@ -2,6 +2,12 @@
 
 Este proyecto abarca el desarrollo, integración e investigación de técnicas avanzadas de pruebas de software. Se divide en tres partes que cubren desde la evolución de un framework híbrido hasta la creación de un pipeline integral y un modelo predictivo de confiabilidad.
 
+Video
+Parte 1  -  5-6 min
+Parte 2  -  <6 min
+Parte 3  -  3 min
+
+
 ---
 
 ## 📌 PARTE 1: Evolución del Framework de Pruebas

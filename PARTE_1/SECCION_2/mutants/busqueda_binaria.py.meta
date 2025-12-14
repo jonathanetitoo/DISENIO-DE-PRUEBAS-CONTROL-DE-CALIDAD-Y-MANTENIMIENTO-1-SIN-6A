@@ -10,13 +10,13 @@
     },
     "hash_by_function_name": {},
     "durations_by_key": {
-        "busqueda_binaria.x__esta_ordenada_no_decreciente__mutmut_1": 0.059863,
-        "busqueda_binaria.x__esta_ordenada_no_decreciente__mutmut_2": 0.077054,
-        "busqueda_binaria.x__esta_ordenada_no_decreciente__mutmut_4": 0.062403,
-        "busqueda_binaria.x__esta_ordenada_no_decreciente__mutmut_3": 0.089464,
-        "busqueda_binaria.x__esta_ordenada_no_decreciente__mutmut_5": 0.079982,
-        "busqueda_binaria.x__esta_ordenada_no_decreciente__mutmut_6": 0.137983,
-        "busqueda_binaria.x__esta_ordenada_no_decreciente__mutmut_7": 0.070815
+        "busqueda_binaria.x__esta_ordenada_no_decreciente__mutmut_1": 0.06572,
+        "busqueda_binaria.x__esta_ordenada_no_decreciente__mutmut_2": 0.085039,
+        "busqueda_binaria.x__esta_ordenada_no_decreciente__mutmut_3": 0.068698,
+        "busqueda_binaria.x__esta_ordenada_no_decreciente__mutmut_4": 0.089475,
+        "busqueda_binaria.x__esta_ordenada_no_decreciente__mutmut_5": 0.064749,
+        "busqueda_binaria.x__esta_ordenada_no_decreciente__mutmut_6": 0.090694,
+        "busqueda_binaria.x__esta_ordenada_no_decreciente__mutmut_7": 0.07245
     },
     "estimated_durations_by_key": {
         "busqueda_binaria.x__esta_ordenada_no_decreciente__mutmut_1": 0.305594173000145,

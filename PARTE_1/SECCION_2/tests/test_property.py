@@ -1,5 +1,5 @@
 from hypothesis import given, strategies as st
-from busqueda_binaria import busqueda_binaria
+from PARTE_1.SECCION_2.busqueda_binaria import busqueda_binaria
 
 # Aqui se generan listas de enteros, para luego ordenarlas
 @given(st.lists(st.integers(), min_size=0).map(sorted), st.integers())

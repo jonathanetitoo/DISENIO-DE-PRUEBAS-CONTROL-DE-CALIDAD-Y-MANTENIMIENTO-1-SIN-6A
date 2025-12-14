@@ -1,6 +1,6 @@
 import pytest
 import icontract
-from busqueda_binaria import busqueda_binaria
+from PARTE_1.SECCION_2.busqueda_binaria import busqueda_binaria
 
 
 def test_contrato_falla_si_lista_no_esta_ordenada():

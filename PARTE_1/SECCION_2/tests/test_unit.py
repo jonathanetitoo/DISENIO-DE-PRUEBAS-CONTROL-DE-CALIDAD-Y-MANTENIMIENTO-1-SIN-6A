@@ -1,5 +1,6 @@
 import pytest
-from busqueda_binaria import busqueda_binaria
+from PARTE_1.SECCION_2.busqueda_binaria import busqueda_binaria
+
 
 @pytest.mark.parametrize(
     "lista, objetivo, esperado",

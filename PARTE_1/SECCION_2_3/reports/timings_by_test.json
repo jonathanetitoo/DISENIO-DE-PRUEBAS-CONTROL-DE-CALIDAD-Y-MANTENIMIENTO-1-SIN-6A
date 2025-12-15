@@ -1,0 +1,67 @@
+[
+  {
+    "nodeid": "PARTE_1/SECCION_2_3/tests/test_property.py::test_propiedad_indice_valido_o_menos_uno",
+    "duration_s": 0.21600918100193667,
+    "outcome": "passed"
+  },
+  {
+    "nodeid": "PARTE_1/SECCION_2_3/tests/test_property.py::test_propiedad_con_lista_sin_duplicados",
+    "duration_s": 0.15852145700046094,
+    "outcome": "passed"
+  },
+  {
+    "nodeid": "PARTE_1/SECCION_2_3/tests/test_unit.py::test_busqueda_binaria[lista1-1-0]",
+    "duration_s": 0.005087590001494391,
+    "outcome": "passed"
+  },
+  {
+    "nodeid": "PARTE_1/SECCION_2_3/tests/test_contracts.py::test_contrato_falla_si_lista_no_esta_ordenada",
+    "duration_s": 0.002894673998525832,
+    "outcome": "passed"
+  },
+  {
+    "nodeid": "PARTE_1/SECCION_2_3/tests/test_unit.py::test_busqueda_binaria[lista0-5-2]",
+    "duration_s": 0.002526498001316213,
+    "outcome": "passed"
+  },
+  {
+    "nodeid": "PARTE_1/SECCION_2_3/tests/test_contracts.py::test_contrato_detecta_desorden_en_el_ultimo_par",
+    "duration_s": 0.0014669629999843892,
+    "outcome": "passed"
+  },
+  {
+    "nodeid": "PARTE_1/SECCION_2_3/tests/test_unit.py::test_busqueda_binaria[lista4-3--1]",
+    "duration_s": 0.001438490999134956,
+    "outcome": "passed"
+  },
+  {
+    "nodeid": "PARTE_1/SECCION_2_3/tests/test_unit.py::test_busqueda_binaria[lista3-4--1]",
+    "duration_s": 0.0008622680015832884,
+    "outcome": "passed"
+  },
+  {
+    "nodeid": "PARTE_1/SECCION_2_3/tests/test_unit.py::test_busqueda_binaria[lista2-9-4]",
+    "duration_s": 0.0008587800002715085,
+    "outcome": "passed"
+  },
+  {
+    "nodeid": "PARTE_1/SECCION_2_3/tests/test_unit.py::test_busqueda_binaria[lista5-10-0]",
+    "duration_s": 0.0008232540003518807,
+    "outcome": "passed"
+  },
+  {
+    "nodeid": "PARTE_1/SECCION_2_3/tests/test_contracts.py::test_contrato_pasa_con_lista_ordenada",
+    "duration_s": 0.0008170030014298391,
+    "outcome": "passed"
+  },
+  {
+    "nodeid": "PARTE_1/SECCION_2_3/tests/test_unit.py::test_busqueda_binaria[lista6-5--1]",
+    "duration_s": 0.0007901310000306694,
+    "outcome": "passed"
+  },
+  {
+    "nodeid": "PARTE_1/SECCION_2_3/tests/test_contracts.py::test_contrato_acepta_lista_ordenada_con_duplicados",
+    "duration_s": 0.000444839000920183,
+    "outcome": "passed"
+  }
+]

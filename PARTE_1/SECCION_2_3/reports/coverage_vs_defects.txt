@@ -1,0 +1,4 @@
+coverage_percent=100.00
+mutmut_not_killed_count=0
+mutmut_not_killed_details=
+

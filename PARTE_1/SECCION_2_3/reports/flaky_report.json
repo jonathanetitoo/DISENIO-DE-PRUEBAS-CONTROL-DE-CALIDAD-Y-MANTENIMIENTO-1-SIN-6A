@@ -1,0 +1,84 @@
+{
+  "runs": 10,
+  "flaky": [],
+  "all": {
+    "PARTE_1/SECCION_2_3/tests/test_contracts.py::test_contrato_falla_si_lista_no_esta_ordenada": {
+      "passed": 10,
+      "failed": 0,
+      "skipped": 0,
+      "error": 0
+    },
+    "PARTE_1/SECCION_2_3/tests/test_contracts.py::test_contrato_pasa_con_lista_ordenada": {
+      "passed": 10,
+      "failed": 0,
+      "skipped": 0,
+      "error": 0
+    },
+    "PARTE_1/SECCION_2_3/tests/test_contracts.py::test_contrato_acepta_lista_ordenada_con_duplicados": {
+      "passed": 10,
+      "failed": 0,
+      "skipped": 0,
+      "error": 0
+    },
+    "PARTE_1/SECCION_2_3/tests/test_contracts.py::test_contrato_detecta_desorden_en_el_ultimo_par": {
+      "passed": 10,
+      "failed": 0,
+      "skipped": 0,
+      "error": 0
+    },
+    "PARTE_1/SECCION_2_3/tests/test_property.py::test_propiedad_indice_valido_o_menos_uno": {
+      "passed": 10,
+      "failed": 0,
+      "skipped": 0,
+      "error": 0
+    },
+    "PARTE_1/SECCION_2_3/tests/test_property.py::test_propiedad_con_lista_sin_duplicados": {
+      "passed": 10,
+      "failed": 0,
+      "skipped": 0,
+      "error": 0
+    },
+    "PARTE_1/SECCION_2_3/tests/test_unit.py::test_busqueda_binaria[lista0-5-2]": {
+      "passed": 10,
+      "failed": 0,
+      "skipped": 0,
+      "error": 0
+    },
+    "PARTE_1/SECCION_2_3/tests/test_unit.py::test_busqueda_binaria[lista1-1-0]": {
+      "passed": 10,
+      "failed": 0,
+      "skipped": 0,
+      "error": 0
+    },
+    "PARTE_1/SECCION_2_3/tests/test_unit.py::test_busqueda_binaria[lista2-9-4]": {
+      "passed": 10,
+      "failed": 0,
+      "skipped": 0,
+      "error": 0
+    },
+    "PARTE_1/SECCION_2_3/tests/test_unit.py::test_busqueda_binaria[lista3-4--1]": {
+      "passed": 10,
+      "failed": 0,
+      "skipped": 0,
+      "error": 0
+    },
+    "PARTE_1/SECCION_2_3/tests/test_unit.py::test_busqueda_binaria[lista4-3--1]": {
+      "passed": 10,
+      "failed": 0,
+      "skipped": 0,
+      "error": 0
+    },
+    "PARTE_1/SECCION_2_3/tests/test_unit.py::test_busqueda_binaria[lista5-10-0]": {
+      "passed": 10,
+      "failed": 0,
+      "skipped": 0,
+      "error": 0
+    },
+    "PARTE_1/SECCION_2_3/tests/test_unit.py::test_busqueda_binaria[lista6-5--1]": {
+      "passed": 10,
+      "failed": 0,
+      "skipped": 0,
+      "error": 0
+    }
+  }
+}

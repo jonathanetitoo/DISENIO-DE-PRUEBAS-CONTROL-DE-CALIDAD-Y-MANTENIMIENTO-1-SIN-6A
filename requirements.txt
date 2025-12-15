@@ -1,4 +1,7 @@
 pytest
-hypothesis
+pytest-cov
+pytest-json-report
+radon
 mutmut
+hypothesis
 icontract

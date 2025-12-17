@@ -1,15 +1,19 @@
+# Aqui se juntan todas las métricas plantedas con el fin de ejecutar todo en una sola salida.
 import subprocess
 from pathlib import Path
 
 def banner(titulo: str):
+    # Se imprime un separador simple para que la salida quede ordenada por secciones.
     print("\n" + "=" * 70)
     print(titulo)
     print("=" * 70)
 
+# Se marca la carpeta donde está run_all.py (metricas/)
 BASE = Path(__file__).resolve().parent
 PROYECTO = BASE.parent
 
 def main():
+    # Aquí se ejecuta cada métrica como un “módulo” independiente, manteniendo el mismo cwd del proyecto
     banner("1) Complejidad ciclomática por prueba")
     subprocess.run(["python", str(BASE / "complejidad.py")], check=True, cwd=str(PROYECTO))
 

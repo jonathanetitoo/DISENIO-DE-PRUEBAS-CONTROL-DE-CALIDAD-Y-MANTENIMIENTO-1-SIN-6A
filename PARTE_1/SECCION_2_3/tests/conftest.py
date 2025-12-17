@@ -1,3 +1,6 @@
+# Archivo el cual sirve para que pytest encuentre los tests y poder
+# ejecutarlos desde la herramienta pruebas de VScode.
+
 from pathlib import Path
 import sys
 

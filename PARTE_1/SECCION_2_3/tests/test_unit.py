@@ -1,7 +1,7 @@
 import pytest
 from busqueda_binaria import busqueda_binaria
 
-
+# Se utiliza una sola función para ejecutar distintos casos de pruebas simples.
 @pytest.mark.parametrize(
     "lista, objetivo, esperado",
     [

@@ -1,3 +1,6 @@
+# Se utiliza la libreria hypoteshis para cumplir con Property-based testing
+# Esta herramienta genera muchos casos automaticamente en dos funciones propuestas.
+
 from hypothesis import given, strategies as st
 from busqueda_binaria import busqueda_binaria
 

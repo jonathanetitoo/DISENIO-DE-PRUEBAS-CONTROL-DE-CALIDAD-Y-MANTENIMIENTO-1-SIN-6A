@@ -119,13 +119,20 @@ Se ejecutaron pruebas combinatorias exhaustivas del componente Button utilizando
 Todos los casos pasaron exitosamente, validando que el componente maneja correctamente todas las combinaciones de variantes (primary, secondary, danger), tamaños (small, medium, large) y estados de deshabilitación.
 
 ### Automatización *codeless* (playwright).
-En ves de usar "TestCraft" opte por usar playwright, ya que es una herramienta mas robusta y flexible para automatizar pruebas de aplicaciones web comparibles directamnte con nextj
+En ves de usar "TestCraft" opte por usar playwright que hace un web scraping, ya que es una herramienta mas robusta y flexible para automatizar pruebas de aplicaciones web comparibles directamnte con nextj al ser open source.
 
 
 <img src="./img/testVisualPruebas.png" alt="SonarQube Dashboard" width="800"/>
+Ejecutamos los test de playwright desed visual para ver si no da fallos y no hubo problemas
+
 <img src="./img/testTerminal.png" alt="SonarQube Dashboard" width="800"/>
+Ejecutamos los test de playwright desed la terminal para generar el reporte de igual menare se pasaron lso test de web scraping que se hacen
+
 <img src="./img/testShow-report.png" alt="SonarQube Dashboard" width="800"/>
+los resultados nos muestran los pipos que se hicieron y que todo salio bien
 
 
 
 ### Modelo predictivo de confiabilidad (SMERFS, Frestimate).
+<img src="./img/model.png" alt="SonarQube Dashboard" width="800"/>
+Se ejecutó exitosamente la simulación del modelo predictivo utilizando un algoritmo de regresión logarítmica sobre los datos históricos de pruebas de los primeros 6 días. El sistema procesó la tendencia de fallos acumulados y generó la ecuación de confiabilidad $y = 4.34 + 12.61 \cdot \ln(x)$, la cual confirma que el software está entrando en una etapa de estabilización (la curva se está aplanando). Las proyecciones indican que la tasa de descubrimiento de nuevos errores disminuirá drásticamente, estimando alcanzar un total de ~34.5 fallos acumulados para el día 11, lo que sugiere un aumento progresivo en la robustez del sistema.

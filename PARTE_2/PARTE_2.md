@@ -94,6 +94,7 @@ DUPLICATIONS (Duplicaciones): 2.9%
 
 
 ### Análisis dinámico con herramientas de prueba (p. ej., **Jest**, **Cypress**).
+Se peude ingresar a ver el codigo [Aqui](https://github.com/AECCuide/aecc-uide-web/blob/PipelineTesting/Button.test.tsx).
 <img src="./img/jets.png" alt="SonarQube Dashboard" width="800"/>
 
 **Análisis del resultado del test:** 
@@ -101,6 +102,7 @@ Se ejecutaron exitosamente tres pruebas unitarias para el componente Button, con
 
 
 ### Pruebas combinatorias (ACTS).
+Se peude ingresar a ver el codigo [Aqui](https://github.com/AECCuide/aecc-uide-web/blob/PipelineTesting/playwright-report/index.html).
 
 <img src="./img/PruebasCombinatorias.png" alt="SonarQube Dashboard" width="800"/>
 Se ejecutaron pruebas combinatorias exhaustivas del componente Button utilizando ACTS para generar casos de prueba óptimos, cubriendo todas las combinaciones relevantes de propiedades:
@@ -120,7 +122,7 @@ Todos los casos pasaron exitosamente, validando que el componente maneja correct
 
 ### Automatización *codeless* (playwright).
 En ves de usar "TestCraft" opte por usar playwright que hace un web scraping, ya que es una herramienta mas robusta y flexible para automatizar pruebas de aplicaciones web comparibles directamnte con nextj al ser open source.
-
+Se peude ingresar a ver el codigo [Aqui](https://github.com/AECCuide/aecc-uide-web/blob/PipelineTesting/playwright.config.ts).
 
 <img src="./img/testVisualPruebas.png" alt="SonarQube Dashboard" width="800"/>
 Ejecutamos los test de playwright desed visual para ver si no da fallos y no hubo problemas
@@ -134,5 +136,6 @@ los resultados nos muestran los pipos que se hicieron y que todo salio bien
 
 
 ### Modelo predictivo de confiabilidad (SMERFS, Frestimate).
+Se peude ingresar a ver el codigo [Aqui](https://github.com/AECCuide/aecc-uide-web/tree/PipelineTesting/utils).
 <img src="./img/model.png" alt="SonarQube Dashboard" width="800"/>
 Se ejecutó exitosamente la simulación del modelo predictivo utilizando un algoritmo de regresión logarítmica sobre los datos históricos de pruebas de los primeros 6 días. El sistema procesó la tendencia de fallos acumulados y generó la ecuación de confiabilidad $y = 4.34 + 12.61 \cdot \ln(x)$, la cual confirma que el software está entrando en una etapa de estabilización (la curva se está aplanando). Las proyecciones indican que la tasa de descubrimiento de nuevos errores disminuirá drásticamente, estimando alcanzar un total de ~34.5 fallos acumulados para el día 11, lo que sugiere un aumento progresivo en la robustez del sistema.

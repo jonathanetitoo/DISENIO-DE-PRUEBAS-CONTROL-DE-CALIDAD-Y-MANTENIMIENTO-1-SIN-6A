@@ -208,7 +208,7 @@ Running mutation testing
 ---
 Además, se deben ejecutar los tests dentro de la sección Pruebas de VScode en CodeSpaces.
 
-<img src="tests.png" alt="Vista del proyecto" width="500">
+<img src="tests.PNG" alt="Vista del proyecto" width="500">
 
 
 ### Seccion 3

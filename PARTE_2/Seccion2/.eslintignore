@@ -1,0 +1,7 @@
+node_modules
+.next
+coverage
+
+# Ignorar archivos de prueba para el linting principal
+**/*.test.ts
+**/*.test.tsx

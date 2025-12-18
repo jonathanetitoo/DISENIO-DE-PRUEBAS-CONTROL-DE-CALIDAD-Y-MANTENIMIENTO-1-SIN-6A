@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+echo "🔍 Running ESLint on TSX files..."
+
+npx lint-staged
+
+echo "✅ Pre-commit checks completed!"

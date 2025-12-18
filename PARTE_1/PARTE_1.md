@@ -163,9 +163,9 @@ Carpeta generada por mutmut en donde se almacenan metadatos importantes para su 
 Archivos JSON y TXT con resultados de métricas:
 - `complexity_by_test.json`, `coverage_vs_defects.txt`, `flaky_report.json`, `pytest_report.json`, `timings_by_test.json`, y corridas individuales `pytest_run_1.json` a `pytest_run_10.json`
 
-## Salidas esperadas de los comandos utilizados
+# Salidas esperadas de los comandos utilizados
 
-### Seccion 1
+## Seccion 1
 
 ```bash
 @BrandoMatute24 ➜ /workspaces/DISENIO-DE-PRUEBAS-CONTROL-DE-CALIDAD-Y-MANTENIMIENTO-1-SIN-6A (Evaluacion-en-Contacto-con-el-Docente) $ (cd "PARTE_1/SECCION_1" && npm ci && npm test)
@@ -190,7 +190,7 @@ Finished in 0.031 seconds
 Randomized with seed 44151 (jasmine --random=true --seed=44151)
 ```
 
-### Seccion 2
+## Seccion 2
 
 ```bash
 @BrandoMatute24 ➜ /workspaces/DISENIO-DE-PRUEBAS-CONTROL-DE-CALIDAD-Y-MANTENIMIENTO-1-SIN-6A (Evaluacion-en-Contacto-con-el-Docente) $ (cd "PARTE_1/SECCION_2_3" && mutmut run)
@@ -211,7 +211,7 @@ Además, se deben ejecutar los tests dentro de la sección Pruebas de VScode en 
 <img src="tests.PNG" alt="Vista del proyecto" width="500">
 
 
-### Seccion 3
+## Seccion 3
 
 ```bash
 @BrandoMatute24 ➜ /workspaces/DISENIO-DE-PRUEBAS-CONTROL-DE-CALIDAD-Y-MANTENIMIENTO-1-SIN-6A (Evaluacion-en-Contacto-con-el-Docente) $ (python PARTE_1/SECCION_2_3/metricas/run_all.py)

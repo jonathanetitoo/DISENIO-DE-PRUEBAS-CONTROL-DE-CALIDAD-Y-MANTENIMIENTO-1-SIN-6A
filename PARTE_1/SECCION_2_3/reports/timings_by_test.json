@@ -1,67 +1,67 @@
 [
   {
     "nodeid": "PARTE_1/SECCION_2_3/tests/test_property.py::test_propiedad_indice_valido_o_menos_uno",
-    "duration_s": 0.21080626100047084,
+    "duration_s": 0.19922560100008013,
     "outcome": "passed"
   },
   {
     "nodeid": "PARTE_1/SECCION_2_3/tests/test_property.py::test_propiedad_con_lista_sin_duplicados",
-    "duration_s": 0.1892386230010743,
+    "duration_s": 0.1685441089998676,
     "outcome": "passed"
   },
   {
     "nodeid": "PARTE_1/SECCION_2_3/tests/test_contracts.py::test_contrato_falla_si_lista_no_esta_ordenada",
-    "duration_s": 0.003223147000426252,
+    "duration_s": 0.002427529000215145,
     "outcome": "passed"
   },
   {
     "nodeid": "PARTE_1/SECCION_2_3/tests/test_contracts.py::test_contrato_detecta_desorden_en_el_ultimo_par",
-    "duration_s": 0.0010424650008644676,
-    "outcome": "passed"
-  },
-  {
-    "nodeid": "PARTE_1/SECCION_2_3/tests/test_unit.py::test_busqueda_binaria[lista6-5--1]",
-    "duration_s": 0.0007526149993282161,
-    "outcome": "passed"
-  },
-  {
-    "nodeid": "PARTE_1/SECCION_2_3/tests/test_unit.py::test_busqueda_binaria[lista0-5-2]",
-    "duration_s": 0.0007153759988796082,
-    "outcome": "passed"
-  },
-  {
-    "nodeid": "PARTE_1/SECCION_2_3/tests/test_contracts.py::test_contrato_pasa_con_lista_ordenada",
-    "duration_s": 0.000646909000352025,
-    "outcome": "passed"
-  },
-  {
-    "nodeid": "PARTE_1/SECCION_2_3/tests/test_unit.py::test_busqueda_binaria[lista1-1-0]",
-    "duration_s": 0.0006104590001996257,
-    "outcome": "passed"
-  },
-  {
-    "nodeid": "PARTE_1/SECCION_2_3/tests/test_unit.py::test_busqueda_binaria[lista5-10-0]",
-    "duration_s": 0.0005896810007470776,
+    "duration_s": 0.001340470000059213,
     "outcome": "passed"
   },
   {
     "nodeid": "PARTE_1/SECCION_2_3/tests/test_unit.py::test_busqueda_binaria[lista2-9-4]",
-    "duration_s": 0.0005776679990958655,
+    "duration_s": 0.0010495179999452375,
+    "outcome": "passed"
+  },
+  {
+    "nodeid": "PARTE_1/SECCION_2_3/tests/test_unit.py::test_busqueda_binaria[lista0-5-2]",
+    "duration_s": 0.0010064979999242496,
     "outcome": "passed"
   },
   {
     "nodeid": "PARTE_1/SECCION_2_3/tests/test_unit.py::test_busqueda_binaria[lista4-3--1]",
-    "duration_s": 0.0005594340000243392,
+    "duration_s": 0.0009559840000292752,
+    "outcome": "passed"
+  },
+  {
+    "nodeid": "PARTE_1/SECCION_2_3/tests/test_unit.py::test_busqueda_binaria[lista1-1-0]",
+    "duration_s": 0.0008758230003422796,
     "outcome": "passed"
   },
   {
     "nodeid": "PARTE_1/SECCION_2_3/tests/test_unit.py::test_busqueda_binaria[lista3-4--1]",
-    "duration_s": 0.0005216330000621383,
+    "duration_s": 0.000823677999960637,
+    "outcome": "passed"
+  },
+  {
+    "nodeid": "PARTE_1/SECCION_2_3/tests/test_unit.py::test_busqueda_binaria[lista5-10-0]",
+    "duration_s": 0.0008186580000710819,
+    "outcome": "passed"
+  },
+  {
+    "nodeid": "PARTE_1/SECCION_2_3/tests/test_unit.py::test_busqueda_binaria[lista6-5--1]",
+    "duration_s": 0.0007692050000969175,
+    "outcome": "passed"
+  },
+  {
+    "nodeid": "PARTE_1/SECCION_2_3/tests/test_contracts.py::test_contrato_pasa_con_lista_ordenada",
+    "duration_s": 0.000500633000228845,
     "outcome": "passed"
   },
   {
     "nodeid": "PARTE_1/SECCION_2_3/tests/test_contracts.py::test_contrato_acepta_lista_ordenada_con_duplicados",
-    "duration_s": 0.0005053040003986098,
+    "duration_s": 0.00039648099982514395,
     "outcome": "passed"
   }
 ]

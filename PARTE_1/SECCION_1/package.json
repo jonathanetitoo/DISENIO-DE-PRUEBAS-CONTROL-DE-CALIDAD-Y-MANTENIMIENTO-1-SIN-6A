@@ -1,0 +1,12 @@
+{
+  "name": "mini-framework-hibrido-jasmine",
+  "version": "1.0.0",
+  "main": "src/busquedaBinaria.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "devDependencies": {
+    "jasmine": "^5.0.0"
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "file": "tests/test_contracts.py",
+    "test": "test_contrato_falla_si_lista_no_esta_ordenada",
+    "cc": 1
+  },
+  {
+    "file": "tests/test_contracts.py",
+    "test": "test_contrato_pasa_con_lista_ordenada",
+    "cc": 3
+  },
+  {
+    "file": "tests/test_contracts.py",
+    "test": "test_contrato_acepta_lista_ordenada_con_duplicados",
+    "cc": 2
+  },
+  {
+    "file": "tests/test_contracts.py",
+    "test": "test_contrato_detecta_desorden_en_el_ultimo_par",
+    "cc": 1
+  },
+  {
+    "file": "tests/test_unit.py",
+    "test": "test_busqueda_binaria",
+    "cc": 2
+  },
+  {
+    "file": "tests/test_property.py",
+    "test": "test_propiedad_indice_valido_o_menos_uno",
+    "cc": 5
+  },
+  {
+    "file": "tests/test_property.py",
+    "test": "test_propiedad_con_lista_sin_duplicados",
+    "cc": 4
+  }
+]

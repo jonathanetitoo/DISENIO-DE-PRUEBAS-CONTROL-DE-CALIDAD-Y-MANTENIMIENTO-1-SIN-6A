@@ -1,0 +1,35 @@
+{
+    "tests_by_mangled_function_name": {
+        "busqueda_binaria.x__esta_ordenada_no_decreciente": [
+            "tests/test_property.py::test_propiedad_con_lista_sin_duplicados",
+            "tests/test_contracts.py::test_contrato_falla_si_lista_no_esta_ordenada",
+            "tests/test_contracts.py::test_contrato_pasa_con_lista_ordenada",
+            "tests/test_unit.py::test_busqueda_binaria[lista2-9-4]",
+            "tests/test_unit.py::test_busqueda_binaria[lista3-4--1]",
+            "tests/test_unit.py::test_busqueda_binaria[lista4-3--1]",
+            "tests/test_contracts.py::test_contrato_detecta_desorden_en_el_ultimo_par",
+            "tests/test_unit.py::test_busqueda_binaria[lista1-1-0]",
+            "tests/test_unit.py::test_busqueda_binaria[lista0-5-2]",
+            "tests/test_unit.py::test_busqueda_binaria[lista5-10-0]",
+            "tests/test_property.py::test_propiedad_indice_valido_o_menos_uno",
+            "tests/test_unit.py::test_busqueda_binaria[lista6-5--1]",
+            "tests/test_contracts.py::test_contrato_acepta_lista_ordenada_con_duplicados"
+        ]
+    },
+    "duration_by_test": {
+        "tests/test_contracts.py::test_contrato_falla_si_lista_no_esta_ordenada": 0.0020640550001189695,
+        "tests/test_contracts.py::test_contrato_pasa_con_lista_ordenada": 0.00045182500025475747,
+        "tests/test_contracts.py::test_contrato_acepta_lista_ordenada_con_duplicados": 0.0003640809998159966,
+        "tests/test_contracts.py::test_contrato_detecta_desorden_en_el_ultimo_par": 0.001960030999953233,
+        "tests/test_property.py::test_propiedad_indice_valido_o_menos_uno": 0.16917207500000586,
+        "tests/test_property.py::test_propiedad_con_lista_sin_duplicados": 0.1274176299998544,
+        "tests/test_unit.py::test_busqueda_binaria[lista0-5-2]": 0.0006819940001605573,
+        "tests/test_unit.py::test_busqueda_binaria[lista1-1-0]": 0.0005901609999909851,
+        "tests/test_unit.py::test_busqueda_binaria[lista2-9-4]": 0.0005401179998898442,
+        "tests/test_unit.py::test_busqueda_binaria[lista3-4--1]": 0.0005919249999806198,
+        "tests/test_unit.py::test_busqueda_binaria[lista4-3--1]": 0.0005548970002564602,
+        "tests/test_unit.py::test_busqueda_binaria[lista5-10-0]": 0.0005588929998339154,
+        "tests/test_unit.py::test_busqueda_binaria[lista6-5--1]": 0.0006464880000294215
+    },
+    "stats_time": 0.6962531550000001
+}

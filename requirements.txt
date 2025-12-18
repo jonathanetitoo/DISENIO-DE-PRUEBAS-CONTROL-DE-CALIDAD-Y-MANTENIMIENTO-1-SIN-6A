@@ -1,0 +1,7 @@
+pytest
+pytest-cov
+pytest-json-report
+radon
+mutmut
+hypothesis
+icontract

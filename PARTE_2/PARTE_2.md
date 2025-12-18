@@ -116,8 +116,16 @@ Se ejecutaron pruebas combinatorias exhaustivas del componente Button utilizando
 ✓ debe renderizar correctamente con variant=danger, size=medium, y disabled=false (3 ms)
 ✓ debe renderizar correctamente con variant=danger, size=large, y disabled=true (3 ms)
 ```
-
 Todos los casos pasaron exitosamente, validando que el componente maneja correctamente todas las combinaciones de variantes (primary, secondary, danger), tamaños (small, medium, large) y estados de deshabilitación.
 
-### Automatización *codeless* (TestCraft).
+### Automatización *codeless* (playwright).
+En ves de usar "TestCraft" opte por usar playwright, ya que es una herramienta mas robusta y flexible para automatizar pruebas de aplicaciones web comparibles directamnte con nextj
+
+
+<img src="./img/testVisualPruebas.png" alt="SonarQube Dashboard" width="800"/>
+<img src="./img/testTerminal.png" alt="SonarQube Dashboard" width="800"/>
+<img src="./img/testShow-report.png" alt="SonarQube Dashboard" width="800"/>
+
+
+
 ### Modelo predictivo de confiabilidad (SMERFS, Frestimate).

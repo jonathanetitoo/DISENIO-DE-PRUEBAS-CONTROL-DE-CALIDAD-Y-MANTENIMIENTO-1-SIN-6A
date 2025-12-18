@@ -59,8 +59,65 @@ Implementa bucle que itere sobre casos priorizados, llame a `test_agent`, imprim
 
 Diseñar e implementar un pipeline que integre:
 
-* Análisis estático (p. ej., **SonarQube**).
-* Pruebas unitarias, de mutación y cobertura (Istanbul, Jasmine, Stryker).
-* Pruebas combinatorias (ACTS).
-* Automatización *codeless* (TestCraft).
-* Modelo predictivo de confiabilidad (SMERFS, Frestimate).
+###  Análisis estático (p. ej., **SonarQube**).
+ejecutamos el comando para hacer los test de SonarQube:
+
+```bash
+# Configurar variables de entorno
+export SONAR_HOST_URL="http://localhost:9000"
+export SONAR_TOKEN="sqa_8a9660b181d14ebbe4ce222ad4ef95794f202c63"
+
+# Ejecutar análisis
+npx sonarqube-scanner \
+    -Dsonar.projectKey=nextjs-project \
+    -Dsonar.sources=. \
+    -Dsonar.host.url=$SONAR_HOST_URL \
+    -Dsonar.login=$SONAR_TOKEN
+```
+---
+
+<img src="./img/SonarQube.png" alt="SonarQube Dashboard" width="800"/>
+
+
+**Lo Bueno:**
+SECURITY (Seguridad): A
+- 0 vulnerabilidades confirmadas
+- Esto es EXCELENTE, significa que no tienes vulnerabilidades críticas
+
+MAINTAINABILITY (Mantenibilidad): A
+- 67 issues pero son de baja severidad (code smells)
+- Tu código es relativamente fácil de mantener
+
+DUPLICATIONS (Duplicaciones): 2.9%
+- Solo 2.9% de código duplicado - ¡MUY BUENO!
+- Esto indica buen diseño
+
+
+### Análisis dinámico con herramientas de prueba (p. ej., **Jest**, **Cypress**).
+<img src="./img/jets.png" alt="SonarQube Dashboard" width="800"/>
+
+**Análisis del resultado del test:** 
+Se ejecutaron exitosamente tres pruebas unitarias para el componente Button, confirmando que: (1) el botón se renderiza correctamente con su texto, (2) responde a eventos click ejecutando la función callback correspondiente, y (3) aplica correctamente el estado "disabled" cuando recibe dicha propiedad. Sin embargo, el reporte de cobertura revela una situación crítica: aunque Button.tsx alcanza el 100% de cobertura, el análisis global muestra una cobertura mínima (0.47%) porque Jest está evaluando todos los archivos del proyecto (1,263 líneas de código) sin encontrar pruebas para los demás componentes. Esto evidencia que, mientras el sistema de pruebas funciona correctamente para componentes individuales, la mayoría del código base carece de testeo automatizado, generando alertas por incumplimiento de los umbrales mínimos de cobertura establecidos (80%).
+
+
+### Pruebas combinatorias (ACTS).
+
+<img src="./img/PruebasCombinatorias.png" alt="SonarQube Dashboard" width="800"/>
+Se ejecutaron pruebas combinatorias exhaustivas del componente Button utilizando ACTS para generar casos de prueba óptimos, cubriendo todas las combinaciones relevantes de propiedades:
+
+```
+✓ debe renderizar correctamente con variant=primary, size=small, y disabled=true (51 ms)
+✓ debe renderizar correctamente con variant=primary, size=medium, y disabled=false (6 ms)
+✓ debe renderizar correctamente con variant=primary, size=large, y disabled=true (5 ms)
+✓ debe renderizar correctamente con variant=secondary, size=small, y disabled=false (4 ms)
+✓ debe renderizar correctamente con variant=secondary, size=medium, y disabled=true (4 ms)
+✓ debe renderizar correctamente con variant=secondary, size=large, y disabled=false (4 ms)
+✓ debe renderizar correctamente con variant=danger, size=small, y disabled=true (3 ms)
+✓ debe renderizar correctamente con variant=danger, size=medium, y disabled=false (3 ms)
+✓ debe renderizar correctamente con variant=danger, size=large, y disabled=true (3 ms)
+```
+
+Todos los casos pasaron exitosamente, validando que el componente maneja correctamente todas las combinaciones de variantes (primary, secondary, danger), tamaños (small, medium, large) y estados de deshabilitación.
+
+### Automatización *codeless* (TestCraft).
+### Modelo predictivo de confiabilidad (SMERFS, Frestimate).

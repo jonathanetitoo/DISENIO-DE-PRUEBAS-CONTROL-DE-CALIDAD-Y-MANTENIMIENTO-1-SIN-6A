@@ -12,7 +12,7 @@ Por otro lado, las Secciones 2 y 3 están unificadas en la carpeta `SECCION_2_3`
 
 A continuación, **se detallan los comandos necesarios para ejecutar cada una de las secciones de la primera parte.**
 
-## Sección 1: Ejecución del proyecto con Jasmine
+## Sección 1: Ejecutar el proyecto y correr las pruebas
 Este comando entra a la carpeta de la Sección 1, instala las dependencias desde el lockfile (npm ci) y ejecuta la suite de pruebas con Jasmine (npm test).
 
 ```bash
@@ -43,31 +43,32 @@ Este comando corresponde a la sección 3 y ejecuta todas las métricas solicitad
 ## SECCIÓN 1:
 
 **Lenguajes y Entornos:**
-- JavaScript
-- Node.js
+- JavaScript: Lenguaje de programación utilizado.
+- Node.js: Entorno de ejecución que permite correr JavaScript del lado del servidor y ejecutar las pruebas de forma local y en integración continua (Khare, 2025).
 
 **Frameworks de Pruebas:**
-- Jasmine
+- Jasmine: Framework de pruebas para JavaScript que permite definir y ejecutar pruebas unitarias de forma estructurada (DesarrolloWeb, 2024).
 
 **Gestores de Paquetes:**
-- npm
+- npm: Gestor de paquetes de Node.js utilizado para instalar dependencias, ejecutar scripts de prueba y gestionar el proyecto (Khare, 2025).
 
 ## SECCIÓN 2 y 3:
 
 **Lenguaje:**
-- Python
+- Python: Lenguaje de programación utilizado.
 
 **Frameworks de Pruebas:**
-- pytest
+- pytest: Framework de testing para Python que facilita la creación, ejecución y organización de pruebas unitarias y de integración (GeeksforGeeks, 2025).
 
 **Librerías de Testing:**
-- icontract (contratos de diseño con pre/postcondiciones)
-- hypothesis (pruebas basadas en propiedades con generación automática de casos)
+- icontract: Librería que permite aplicar el testing de Design by Contract, definiendo precondiciones y postcondiciones para validar el comportamiento correcto del código (mristin & Sasha93, 2025).
+- hypothesis: Librería de pruebas basadas en propiedades que genera automáticamente casos de prueba, ayudando a descubrir escenarios límite y errores no previstos (Zac-HD & DRMaclver, 2025).
 
 **Herramientas de Análisis y Métricas:**
-- radon (análisis de complejidad ciclomática)
-- mutmut (testing de mutación)
-- pytest-cov (medición de cobertura de código)
+- radon: Herramienta utilizada para medir la complejidad ciclomática del código y evaluar su mantenibilidad (Lacchia, 2023).
+- mutmut: Herramienta de mutation testing que introduce cambios artificiales en el código para evaluar la efectividad de los casos de prueba (boxed, 2025).
+- pytest-cov: Extensión de pytest que permite medir la cobertura de código y analizar qué partes del programa son ejercitadas por las pruebas (nedbatchelder, 2025).
+- pytest-json-report: Extensión de pytest que permite generar reportes de ejecución de pruebas en formato JSON (numirias, 2022).
 
 
 <br>
@@ -163,9 +164,9 @@ Carpeta generada por mutmut en donde se almacenan metadatos importantes para su 
 Archivos JSON y TXT con resultados de métricas:
 - `complexity_by_test.json`, `coverage_vs_defects.txt`, `flaky_report.json`, `pytest_report.json`, `timings_by_test.json`, y corridas individuales `pytest_run_1.json` a `pytest_run_10.json`
 
-# Salidas esperadas de los comandos utilizados
+## Salidas esperadas de los comandos utilizados
 
-## Seccion 1
+### Seccion 1
 
 ```bash
 @BrandoMatute24 ➜ /workspaces/DISENIO-DE-PRUEBAS-CONTROL-DE-CALIDAD-Y-MANTENIMIENTO-1-SIN-6A (Evaluacion-en-Contacto-con-el-Docente) $ (cd "PARTE_1/SECCION_1" && npm ci && npm test)
@@ -190,7 +191,7 @@ Finished in 0.031 seconds
 Randomized with seed 44151 (jasmine --random=true --seed=44151)
 ```
 
-## Seccion 2
+### Seccion 2
 
 ```bash
 @BrandoMatute24 ➜ /workspaces/DISENIO-DE-PRUEBAS-CONTROL-DE-CALIDAD-Y-MANTENIMIENTO-1-SIN-6A (Evaluacion-en-Contacto-con-el-Docente) $ (cd "PARTE_1/SECCION_2_3" && mutmut run)
@@ -208,10 +209,10 @@ Running mutation testing
 ---
 Además, se deben ejecutar los tests dentro de la sección Pruebas de VScode en CodeSpaces.
 
-<img src="tests.PNG" alt="Vista del proyecto" width="500">
+<img src="tests.png" alt="Vista del proyecto" width="500">
 
 
-## Seccion 3
+### Seccion 3
 
 ```bash
 @BrandoMatute24 ➜ /workspaces/DISENIO-DE-PRUEBAS-CONTROL-DE-CALIDAD-Y-MANTENIMIENTO-1-SIN-6A (Evaluacion-en-Contacto-con-el-Docente) $ (python PARTE_1/SECCION_2_3/metricas/run_all.py)
@@ -299,3 +300,23 @@ Mutantes NO matados (survived/timeout/etc.): 0
 
 ✔ Listo. Revisa la carpeta reports/
 ```
+
+# Referencias bibliográficas
+
+Khare, M. (2025, 1 octubre). ***Qué es Node.js y por qué debería usarlo.*** Kinsta®. https://kinsta.com/es/blog/que-es-node-js/
+
+***Introducción El framework de pruebas Javascript Jasmine.*** (2024, 16 abril). DesarrolloWeb. https://desarrolloweb.com/articulos/conociendo-jasmine.html
+
+***Getting Started with Pytest.*** (2025, 23 julio). GeeksforGeeks. https://www.geeksforgeeks.org/python/getting-started-with-pytest/
+
+mristin & Sasha93. (2025, 8 noviembre). ***icontract 2.7.2.*** Pypi. https://pypi.org/project/icontract/
+
+Zac-HD & DRMaclver. (2025, 4 diciembre). ***hypothesis.*** PyPI. https://pypi.org/project/hypothesis/
+
+Lacchia, M. (2023, 26 marzo). ***radon.*** PyPI. https://pypi.org/project/radon/
+
+boxed. (2025, 19 noviembre). ***mutmut.*** PyPI. https://pypi.org/project/mutmut/
+
+nedbatchelder. (2025, 8 diciembre). ***coverage.*** PyPI. https://pypi.org/project/coverage/
+
+numirias. (2022, 15 marzo). ***pytest-json-report.*** PyPI. https://pypi.org/project/pytest-json-report/

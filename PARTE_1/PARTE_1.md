@@ -12,7 +12,7 @@ Por otro lado, las Secciones 2 y 3 están unificadas en la carpeta `SECCION_2_3`
 
 A continuación, **se detallan los comandos necesarios para ejecutar cada una de las secciones de la primera parte.**
 
-## Sección 1: Ejecutar el proyecto y correr las pruebas
+## Sección 1: Ejecución del proyecto con Jasmine
 Este comando entra a la carpeta de la Sección 1, instala las dependencias desde el lockfile (npm ci) y ejecuta la suite de pruebas con Jasmine (npm test).
 
 ```bash

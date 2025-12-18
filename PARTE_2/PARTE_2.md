@@ -4,7 +4,9 @@
 
 ## 🔹 Sección 1: Orquestación de Pruebas Combinatorias (5 pts)
 
-El sistema bajo prueba, implementado en el notebook `Shop_agent.ipynb`, consiste en una arquitectura multi-agente diseñada para un e-commerce. Utiliza el **Google Agent Development Kit (ADK)** para orquestar la interacción entre agentes y herramientas externas.
+El sistema bajo prueba, implementado en el notebook `Shop_agent.ipynb`, consiste en una arquitectura multi-agente diseñada para un e-commerce. Utiliza el **Google Agent Development Kit (ADK)** para orquestar la interacción entre agentes y herramientas externas. 
+
+puedes acceder a ver el colab desde [Colab-Fait-arch](https://colab.research.google.com/drive/1o1Yk2Yk3bX4Jt5v5Zz5Zz5Zz5Zz5Zz5#scrollTo=example).
 
 Desarrollar un sistema que:
 

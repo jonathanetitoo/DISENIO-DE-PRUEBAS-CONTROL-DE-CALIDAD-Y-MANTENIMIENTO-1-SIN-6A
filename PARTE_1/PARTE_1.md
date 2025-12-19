@@ -52,6 +52,9 @@ Este comando corresponde a la sección 3 y ejecuta todas las métricas solicitad
 **Gestores de Paquetes:**
 - npm: Gestor de paquetes de Node.js utilizado para instalar dependencias, ejecutar scripts de prueba y gestionar el proyecto (Khare, 2025).
 
+**Integración Continua (CI/CD)**
+- GitHub Actions: Plataforma de CI/CD integrada en GitHub que permite automatizar flujos de trabajo (workflows) establecidos en archivos YAML dentro de .github/workflows, ejecutando tareas como instalar dependencias y correr las pruebas automáticamente en cada push o pull request (IONOS, 2023).
+
 ## SECCIÓN 2 y 3:
 
 **Lenguaje:**
@@ -69,6 +72,7 @@ Este comando corresponde a la sección 3 y ejecuta todas las métricas solicitad
 - mutmut: Herramienta de mutation testing que introduce cambios artificiales en el código para evaluar la efectividad de los casos de prueba (boxed, 2025).
 - pytest-cov: Extensión de pytest que permite medir la cobertura de código y analizar qué partes del programa son ejercitadas por las pruebas (nedbatchelder, 2025).
 - pytest-json-report: Extensión de pytest que permite generar reportes de ejecución de pruebas en formato JSON (numirias, 2022).
+
 
 
 <br>
@@ -190,6 +194,9 @@ Started
 Finished in 0.031 seconds
 Randomized with seed 44151 (jasmine --random=true --seed=44151)
 ```
+Además, para comprobar que GitHub Actions funciona correctamente, se debe verificar en la pestaña Actions que el workflow se ejecute y finalice con estado "Success", mostrando la ejecución de npm test sin errores.
+
+<img src="GitHubActions.png" alt="GitHubActions" width="800">
 
 ### Seccion 2
 
@@ -306,6 +313,8 @@ Mutantes NO matados (survived/timeout/etc.): 0
 Khare, M. (2025, 1 octubre). ***Qué es Node.js y por qué debería usarlo.*** Kinsta®. https://kinsta.com/es/blog/que-es-node-js/
 
 ***Introducción El framework de pruebas Javascript Jasmine.*** (2024, 16 abril). DesarrolloWeb. https://desarrolloweb.com/articulos/conociendo-jasmine.html
+
+***GitHub Actions: la plataforma de CI de GitHub.*** (2023, 29 agosto). IONOS Digital Guide. https://www.ionos.com/es-us/digitalguide/paginas-web/desarrollo-web/github-actions/
 
 ***Getting Started with Pytest.*** (2025, 23 julio). GeeksforGeeks. https://www.geeksforgeeks.org/python/getting-started-with-pytest/
 

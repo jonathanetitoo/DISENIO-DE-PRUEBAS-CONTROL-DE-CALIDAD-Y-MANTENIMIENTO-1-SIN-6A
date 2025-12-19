@@ -194,6 +194,7 @@ Started
 Finished in 0.031 seconds
 Randomized with seed 44151 (jasmine --random=true --seed=44151)
 ```
+---
 Además, para comprobar que GitHub Actions funciona correctamente, se debe verificar en la pestaña Actions que el workflow se ejecute y finalice con estado "Success", mostrando la ejecución de npm test sin errores.
 
 <img src="GitHubActions.PNG" alt="GitHubActions" width="800">

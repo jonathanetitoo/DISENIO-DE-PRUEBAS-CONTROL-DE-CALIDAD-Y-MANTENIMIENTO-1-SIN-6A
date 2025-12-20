@@ -22,7 +22,7 @@ const casosPorTipo = {
     { nombre: "objeto", valor: { x: 1 } },
   ],
 
-  // Casos donde el array existe, pero sus elementos no cumplen el tipo esperado.
+  // Casos donde el array existe, pero sus elementos no cumplen el tipo esperado
   elementosInvalidos: [
     { nombre: "elemento string", valor: [1, "2", 3] },
     { nombre: "elemento NaN", valor: [1, NaN, 3] },

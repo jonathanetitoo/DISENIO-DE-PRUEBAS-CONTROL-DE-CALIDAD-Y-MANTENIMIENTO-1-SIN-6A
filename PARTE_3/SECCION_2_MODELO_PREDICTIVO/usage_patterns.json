@@ -1,0 +1,17 @@
+{
+  "modules": [
+    {
+      "name": "busqueda_binaria",
+      "avg_daily_calls": 1200,
+      "peak_hour_calls": 180,
+      "criticality": 0.8
+    },
+    {
+      "name": "api_busqueda",
+      "avg_daily_calls": 450,
+      "peak_hour_calls": 70,
+      "criticality": 0.6
+    }
+  ],
+  "window_days": 30
+}

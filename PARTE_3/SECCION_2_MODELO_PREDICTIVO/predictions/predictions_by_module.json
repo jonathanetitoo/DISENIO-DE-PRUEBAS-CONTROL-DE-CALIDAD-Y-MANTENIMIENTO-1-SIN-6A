@@ -1,0 +1,50 @@
+{
+  "summary": {
+    "modules_predicted": 2,
+    "reliability_mean": 0.4367,
+    "reliability_std": 0.0016,
+    "window_days": 30
+  },
+  "predictions": [
+    {
+      "module": "busqueda_binaria",
+      "inputs": {
+        "defects_found": 5,
+        "test_fail_rate": 0.02,
+        "coverage": 0.88,
+        "mt_kill_rate": 0.72,
+        "cyclomatic_complexity": 6,
+        "avg_daily_calls": 1200,
+        "criticality": 0.8
+      },
+      "components": {
+        "log_risk": 0.8463,
+        "stochastic_risk": 0.1108
+      },
+      "prediction": {
+        "risk": 0.5617,
+        "reliability": 0.4383
+      }
+    },
+    {
+      "module": "api_busqueda",
+      "inputs": {
+        "defects_found": 7,
+        "test_fail_rate": 0.04,
+        "coverage": 0.74,
+        "mt_kill_rate": 0.61,
+        "cyclomatic_complexity": 9,
+        "avg_daily_calls": 450,
+        "criticality": 0.6
+      },
+      "components": {
+        "log_risk": 0.8537,
+        "stochastic_risk": 0.1754
+      },
+      "prediction": {
+        "risk": 0.5649,
+        "reliability": 0.4351
+      }
+    }
+  ]
+}
